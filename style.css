@@ -129,6 +129,7 @@ hr {
   border:1px solid red;  /*標示用*/
   width: 50%;
   margin: 0 auto;   /*整個form置中*/
+  margin-bottom: 20px;
  }
 
  .form-row{
