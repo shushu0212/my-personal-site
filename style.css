@@ -6,7 +6,7 @@
 #nav {
   background: #20B2AA;
   width: 100%;
-  border: 1px solid #008080;
+  /*border: 1px solid #008080;*/
   position: fixed;  /*將導覽列固定不動*/
   top: 0;           /*固定在最上方（top;0).最左邊（left:0)*/
   left: 0;
@@ -15,14 +15,14 @@
 }
 
 #content {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: relative;
   top: 76px;
   padding: 15px;
 }
 
 .container {
-  border: 2px solid #ccc;
+  /*border: 2px solid #ccc;*/
   width: 800px;
   margin: 0 auto;
 
@@ -48,9 +48,9 @@ display: inline-block;
 
 }
 
-#about,#my-work,#contact-me {
+/*#about,#my-work,#contact-me {
 border: 3px solid pink;
-}
+}*/
 
 a {
   display: block;
@@ -150,7 +150,7 @@ hr {
  /* contact me*/
 
  form.contact-form{
-  border:1px solid red;  /*標示用*/
+  /*border:1px solid red;*/  /*標示用*/
   width: 50%;
   margin: 0 auto;   /*整個form置中*/
   margin-bottom: 20px;
