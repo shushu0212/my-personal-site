@@ -7,16 +7,30 @@
   background: #20B2AA;
   width: 100%;
   border: 1px solid #008080;
+  position: fixed;  /*將導覽列固定不動*/
+  top: 0;           /*固定在最上方（top;0).最左邊（left:0)*/
+  left: 0;
+  z-index: 100;    /* 解決被圖片蓋住，讓導覽列在上層。z-index數字愈大愈上層 */
 
 }
 
 #content {
-border: 1px solid black;
+  border: 1px solid black;
+  position: relative;
+  top: 76px;
+  padding: 15px;
 }
 
 .container {
-border: 2px solid #ccc;
+  border: 2px solid #ccc;
+  width: 800px;
+  margin: 0 auto;
 
+}
+
+
+#content > .container > div {
+  padding: 76px 0;
 }
 
 .menu li{
@@ -62,7 +76,13 @@ li:hover a {
 }
 
 h1 {
+ /* margin-bottom: 0;*/
+  text-align: center;
+}
+
+#about h1 {
   margin-bottom: 0;
+  text-align: left;
 }
 
 h3 {
@@ -91,6 +111,10 @@ hr {
 }
 
 /* my work */
+
+#my-work {
+  text-align: center;
+}
 
 .item {
   position: relative;
@@ -148,4 +172,28 @@ hr {
   height: 4em;
 }
 
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;   /*游標指到button變成一隻手*/
+}
+
+.form-row button[type="sumbit"] {
+  background-color: #5995DA;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+hr.bar {
+  border:2px solid #20B2AA;
+  width: 80px;
+}
 
