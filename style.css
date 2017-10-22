@@ -197,3 +197,14 @@ hr.bar {
   width: 80px;
 }
 
+
+@media screen and (max-width: 1023px) {
+  .container {
+    width: auto;
+  }
+
+  /*
+    往下繼續手機版 css code
+  */
+}
+ 
