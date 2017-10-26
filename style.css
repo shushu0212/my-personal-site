@@ -19,6 +19,7 @@
   position: relative;
   top: 76px;
   padding: 15px;
+  margin-bottom: 150px;  /*加大div與body的底部間隔，讓contact me連結可以置頂。*/
 }
 
 .container {
@@ -32,6 +33,12 @@
 #content > .container > div {
   padding: 76px 0;
 }
+
+/*讓 .menu 的按鈕靠右*/
+.menu {
+  float: right;
+}
+
 
 .menu li{
 width: 150px;
@@ -74,6 +81,7 @@ li:hover a {
   float: left;
   margin: 20px;
 }
+
 
 h1 {
  /* margin-bottom: 0;*/
@@ -153,7 +161,7 @@ hr {
   /*border:1px solid red;*/  /*標示用*/
   width: 50%;
   margin: 0 auto;   /*整個form置中*/
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
  }
 
  .form-row{
